@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+  color: white;
+}
+li,
+p,
+h2 {
+  color: grey;
+}
+h1,
+p {
+  margin: 0;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  /* display: flex; */
+}
+main {
+  background-image: url("./images/bgg.png");
+  background-position: center;
+
+  height: 817px;
+  max-width: 1440px;
+  padding: 1px;
+  margin: auto;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+nav {
+  display: flex;
+  width: 512px;
+  justify-content: space-between;
+  align-items: center;
+}
+header {
+  width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 29px;
+}
+.login {
+  display: flex;
+  align-items: center;
+}
+.blok1 {
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 1000px;
+}
+.left-s {
+  width: 570px;
+}
+.right-s {
+  display: flex;
+  align-self: center;
+}
+.blok2 {
+  display: flex;
+  width: 216px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.opisanie {
+  border-bottom: 1px solid grey;
+  margin-top: 90px;
+  margin-bottom: 30px;
+  height: 422px;
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: space-around;
+}
+.t-1 {
+  width: 231px;
+  height: 36px;
+  left: 138px;
+  top: 153px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  /* identical to box height, or 36px */
+}
+.about-m {
+  width: 570px;
+  height: 168px;
+  left: 135px;
+  top: 265px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+.imdb::after {
+  content: " /10";
+  font-size: 16px;
+  color: grey;
+}
+.data {
+  width: 405px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.days-list {
+  display: flex;
+  justify-content: space-between;
+}
+.days {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: #fe8e05;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+}
+.mnth,
+.dayz,
+.date {
+  color: #621402;
+}
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 40px; */
+  height: 200px;
+  border-bottom: 1px solid grey;
+}
+#address-cinema {
+  width: 470px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  padding-left: 30px;
+}
+.kinoteatr {
+  display: flex;
+  height: 117px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.times {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 117px;
+  width: 108px;
+}
+#times {
+  width: 108px;
+  height: 60px;
+  left: 1135px;
+  top: 678px;
+
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+}

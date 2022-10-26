@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  color: white;
+}
+p {
+  margin: 0;
+}
+.container {
+  width: 358px;
+  height: 565px;
+  margin: auto;
+  background: linear-gradient(180deg, #62b8f6 0%, #2c79c1 77.96%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.day_and_mnth {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  width: 133px;
+}
+.day {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+
+  letter-spacing: -0.24px;
+}
+.btwn {
+  border-right: white 1px solid;
+  width: 5px;
+}
+.mtnh {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+
+  letter-spacing: -0.24px;
+}
+#temp_number {
+  width: 89px;
+  height: 86px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 120%;
+  /* or 86px */
+  letter-spacing: -0.24px;
+}
+.celsiy {
+  width: 8px;
+  height: 8px;
+}
+.int_grad {
+  margin-top: 22px;
+}
+.osadki {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+  margin-bottom: 22px;
+  letter-spacing: -0.24px;
+}
+input {
+  width: 195px;
+  height: 38px;
+  background: #d9d9d9;
+  border-radius: 15px;
+  border: 0;
+}

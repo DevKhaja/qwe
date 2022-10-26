@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  color: #ffffff;
+}
+h1,
+p {
+  margin: 0;
+}
+button {
+  border: 0;
+}
+.container {
+  max-width: 1440px;
+  height: 1024px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(296.59deg, #00cb6a 0.34%, #4dc9fe 100%);
+  margin: auto;
+}
+.left-bar {
+  width: 426px;
+  height: 475px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.blok {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 198px;
+  height: 174px;
+}
+.join {
+  width: 198px;
+  height: 63px;
+  left: 298px;
+  top: 369px;
+
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 63px;
+}
+.blok2 {
+  height: 161px;
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#about-btn {
+  width: 200px;
+  height: 72px;
+
+  background: #ffffff;
+  border-radius: 40px;
+  color: #00cb6a;
+}
+.about-p {
+  width: 426px;
+  height: 65px;
+  left: 184px;
+  top: 572px;
+
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+}
+.right-bar {
+  width: 740px;
+  height: 735px;
+  background-image: url("./images/Vector\ 1.svg");
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.blok1 {
+  float: right;
+  margin-right: 81px;
+  margin-top: 75px;
+  width: 451px;
+  height: 387px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 451px;
+  height: 287px;
+}
+
+input {
+  width: 450px;
+  height: 55px;
+
+  background: #ffffff;
+  border: 2px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+#reg {
+  width: 226px;
+  height: 56px;
+  left: 800px;
+  top: 591px;
+
+  background: linear-gradient(269.38deg, #00cb6a 15.51%, #4dc9fe 65.46%);
+  border-radius: 20px;
+}
+.regs {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+
+  background: linear-gradient(264.92deg, #00cb6a 45.92%, #4dc9fe 68.02%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  width: 343px;
+  height: 82px;
+}
